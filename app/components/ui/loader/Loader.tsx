@@ -1,21 +1,11 @@
-import { Spinner } from '@chakra-ui/react'
 import { FC } from 'react'
 
 import { COLORS } from '@/config/color.config'
 
+import Spiner from './Spinner-1s-200px.svg'
+
 const Loader: FC = () => {
-	return (
-		<Spinner
-			thickness='4px'
-			speed='1s'
-			emptyColor='gray.200'
-			color={COLORS.green}
-			size='xl'
-			display='block'
-			className='mx-auto'
-			marginTop={20}
-		/>
-	)
+	return <img src={Spiner.src} alt='loader' width={200} height={200} />
 }
 
 export default Loader
