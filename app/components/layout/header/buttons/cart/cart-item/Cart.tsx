@@ -6,8 +6,9 @@ import { useCart } from '@/hooks/useCart'
 
 import { formatToCurrency } from '@/utils/format-to-currency'
 
+import CartItem from '../cart-actions/CartItem'
+
 import styles from './Cart.module.scss'
-import CartItem from './cart-item/CartItem'
 import { PaymentService } from '@/services/PaymentService'
 
 const Cart: FC = () => {
