@@ -5,7 +5,12 @@
 @tailwind utilities;
 
 body {
-	@apply text-base text-black;
+	@apply bg-[#131313] text-base text-gray;
+}
+
+html,
+body {
+	@apply bg-[#131313];
 }
 
 .disabled {

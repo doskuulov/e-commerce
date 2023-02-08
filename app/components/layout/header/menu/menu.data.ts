@@ -2,15 +2,23 @@ import { IMenuLink } from './menu-item/menu-item.interface'
 
 export const menu: IMenuLink[] = [
 	{
-		link: '/coffee',
-		name: 'Coffee'
+		link: '/',
+		name: 'Home'
 	},
 	{
-		link: '/tea',
-		name: 'Tea'
+		link: '/shop',
+		name: 'Shop'
 	},
 	{
-		link: '/menu',
-		name: 'Menu'
+		link: '/catefories',
+		name: 'Categories'
+	},
+	{
+		link: '/about',
+		name: 'About'
+	},
+	{
+		link: '/mentors',
+		name: 'Mentors'
 	}
 ]
