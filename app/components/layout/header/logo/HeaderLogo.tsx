@@ -7,7 +7,7 @@ import Column from '@/ui/grid/Column'
 const HeaderLogo: FC = () => {
 	return (
 		<Column size={2}>
-			<Link href='/' className='flex items-center'>
+			<Link href='/' className='flex items-center mx-auto '>
 				<Image
 					src='/images/logo.svg'
 					width={100}
@@ -16,8 +16,8 @@ const HeaderLogo: FC = () => {
 					className='-mr-3'
 				/>
 				<span className=''>
-					<span className='text-white block font-light tracking-[0.1em]'>
-						FARFETCH
+					<span className='text-white block font-light tracking-[0.13em]'>
+						LORIAN
 					</span>
 					<span className=' text-dark-gray tracking-[0.4em] block font-extralight'>
 						STORE
