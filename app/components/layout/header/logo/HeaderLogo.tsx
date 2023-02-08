@@ -6,20 +6,20 @@ import Column from '@/ui/grid/Column'
 
 const HeaderLogo: FC = () => {
 	return (
-		<Column size={2}>
+		<Column size={1}>
 			<Link href='/' className='flex items-center mx-auto '>
 				<Image
 					src='/images/logo.svg'
 					width={100}
 					height={100}
 					alt='Xmas shop'
-					className='-mr-3'
+					className='-mr-4'
 				/>
 				<span className=''>
-					<span className='text-white block font-light tracking-[0.13em]'>
+					<span className='text-white block font-light tracking-[0.15em]'>
 						LORIAN
 					</span>
-					<span className=' text-dark-gray tracking-[0.4em] block font-extralight'>
+					<span className=' text-dark-gray tracking-[0.28em] block font-extralight'>
 						STORE
 					</span>
 				</span>

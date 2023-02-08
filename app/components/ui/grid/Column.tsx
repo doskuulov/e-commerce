@@ -1,10 +1,17 @@
 import cn from 'clsx'
 import { FC, PropsWithChildren } from 'react'
 
-const Column: FC<PropsWithChildren<{ size: number; isCenter?: boolean }>> = ({
+interface IColumn {
+	size: number
+	isCenter?: boolean
+	className?: string
+}
+
+const Column: FC<PropsWithChildren<IColumn>> = ({
 	size,
 	children,
-	isCenter = true
+	isCenter = true,
+	className
 }) => {
 	return (
 		<div
@@ -13,7 +20,8 @@ const Column: FC<PropsWithChildren<{ size: number; isCenter?: boolean }>> = ({
 				'border-r-2 border-black border-solid h-full flex items-center p-3 ',
 				{
 					'justify-center': isCenter
-				}
+				},
+				className
 			)}
 		>
 			{children}
