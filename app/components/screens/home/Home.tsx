@@ -7,7 +7,7 @@ import Column from '@/ui/grid/Column'
 import Row from '@/ui/grid/Row'
 import Loader from '@/ui/loader/Loader'
 
-import Homeinformation from './home-information/Homeinformation'
+import HomeInformation from './home-information/HomeInformation'
 import HotSale from './hot-sale/HotSale'
 import { IProductsPage } from '@/../pages'
 
@@ -28,7 +28,7 @@ const Home: FC<IProductsPage> = ({ products }) => {
 					className='flex-col'
 				>
 					<HotSale />
-					<Homeinformation />
+					<HomeInformation />
 				</Column>
 			</Row>
 		</Layout>
