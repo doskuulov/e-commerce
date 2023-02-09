@@ -4,7 +4,7 @@ import { AiFillChrome } from 'react-icons/ai'
 
 interface ISquareButton {
 	Icon: IconType
-	onClick: () => void
+	onClick?: () => void
 	number?: number
 }
 

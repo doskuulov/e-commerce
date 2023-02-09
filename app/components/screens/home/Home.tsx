@@ -12,7 +12,7 @@ const Home: FC<IProductsPage> = ({ products }) => {
 			title='Home'
 			description='More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more.'
 		>
-			<Loader />
+			{/* <Loader /> */}
 		</Layout>
 	)
 }
