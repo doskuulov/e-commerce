@@ -18,11 +18,11 @@ const Home: FC<IProductsPage> = ({ products }) => {
 			description='More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more.'
 		>
 			<Row className='bg-dark-primary'>
-				<Column size={5} isPadding={false}>
-					<Image src='/images/main-4x.png' alt='' width={1035} height={928} />
+				<Column size={4} isPadding={false}>
+					<Image src='/images/main-4x.png' alt='' width={799} height={728} />
 				</Column>
 				<Column
-					size={4}
+					size={5}
 					isPadding={false}
 					isCenter={false}
 					className='flex-col'
